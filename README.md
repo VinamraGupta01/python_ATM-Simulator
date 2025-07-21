@@ -14,6 +14,16 @@ A simple, beginner-friendly ATM Simulator built using Python. This project simul
 ▶️ HOW TO RUN:
 > python atm.py
 
+
+## 📁 Project Files Description
+
+| File Name     | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| `atm.py`      | Main Python script that runs the GUI-based ATM simulator.                  |
+| `atm.ico`     | Custom icon used in the application window and executable.                  |
+| `setup.py`    | Script to create a Windows installer (MSI) using `py setup.py bdist_msi`.   |
+
+
 🔧 TO CREATE EXECUTABLE (EXE):
 > pyinstaller --onefile atm.py
 
