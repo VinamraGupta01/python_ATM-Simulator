@@ -27,6 +27,11 @@ A simple, beginner-friendly ATM Simulator built using Python. This project simul
 🔧 TO CREATE EXECUTABLE (EXE):
 > pyinstaller --onefile atm.py
 
+## 📸 Screenshot
+
+![ATM Simulator Screenshot](atm.png)
+
+
 📁 FILES:
 - atm.py → Main Python Script
 - atm.exe → Standalone Executable (Optional)
