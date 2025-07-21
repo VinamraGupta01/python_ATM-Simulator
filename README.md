@@ -27,8 +27,7 @@ A simple, beginner-friendly ATM Simulator built using Python. This project simul
 > pyinstaller --onefile atm.py
 
 ## 📸 SCREENSHOT
-
-![ATM Simulator Screenshot](atm.png)
+<p align="center"> <img src="atm.png" alt="ATM Simulator Screenshot" width="500"/> </p>
 
 📁 FILES:
 - atm.py → Main Python Script
