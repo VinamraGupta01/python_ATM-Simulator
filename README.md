@@ -1,38 +1,97 @@
+# 💳 ATM SIMULATOR — PYTHON CONSOLE PROJECT
+
+A beginner-friendly **ATM simulator** built using pure Python. This console-based application replicates basic ATM functionalities such as **balance inquiry**, **cash withdrawal**, **deposit**, and **PIN verification** — all wrapped in a simple and interactive CLI menu.
+
+---
+
+## 🛠️ FEATURES
+
+- 🔐 Secure PIN-based login system  
+- 💵 Withdraw, deposit, and check account balance  
+- 🔁 Continuous menu loop until user exits  
+- ⚠️ Input validation with friendly error handling  
+- ❌ Safe and clean exit confirmation  
+- 🐍 Built using **pure Python** – no external dependencies  
+
+---
+
+## ▶️ HOW TO RUN
+
+```bash
+python atm.py
+````
+
+Make sure you have Python 3.x installed. You can download Python from [python.org](https://www.python.org/).
+
+---
+
+## 📁 PROJECT STRUCTURE
+
+| File Name   | Description                                                             |
+| ----------- | ----------------------------------------------------------------------- |
+| `atm.py`    | Main script that runs the console-based ATM simulator                   |
+| `atm.ico`   | Optional custom icon for executable branding                            |
+| `setup.py`  | Installer builder script (Windows `.msi`) using distutils (`bdist_msi`) |
+| `README.md` | Project documentation                                                   |
+
+---
+
+## 🧪 EXAMPLE QUESTIONS
+
 ```
-💳 ATM SIMULATOR - PYTHON CONSOLE PROJECT
+Welcome to ATM
 
-A simple, beginner-friendly ATM Simulator built using Python. This project simulates essential ATM operations like balance inquiry, cash withdrawal, deposit, and PIN verification — all through a clean and interactive console interface.
+Enter your 4-digit PIN: ****
 
-🛠 FEATURES:
-- 🔐 Secure PIN-based authentication
-- 💵 Withdraw, deposit, and balance check options
-- 🔁 Looping menu until exit
-- ❌ Graceful exit with confirmation
-- ⚠️ Input validation and error handling
-- 🐍 Built with pure Python — no external libraries needed
+1. Balance Inquiry
+2. Deposit Money
+3. Withdraw Money
+4. Exit
 
-▶️ HOW TO RUN:
-> python atm.py
-
-## 📁 Project Files Description
-
-| File Name     | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `atm.py`      | Main Python script that runs the GUI-based ATM simulator.                  |
-| `atm.ico`     | Custom icon used in the application window and executable.                  |
-| `setup.py`    | Script to create a Windows installer (MSI) using `py setup.py bdist_msi`.   |
-
-
-🔧 TO CREATE EXECUTABLE (EXE):
-> pyinstaller --onefile atm.py
-
-📁 FILES:
-- atm.py → Main Python Script
-- atm.exe → Standalone Executable (Optional)
-- README.md → Project Documentation
-
-📜 LICENSE:
-MIT License – Free to use, modify, and distribute.
-
-🌟 Like this project? Show some love by giving it a ⭐ on GitHub!
+Choose an option: _
 ```
+
+---
+
+## 🛠️ CREATE EXECUTABLE (.exe)
+
+To convert this project into a Windows executable:
+
+```bash
+pyinstaller --onefile atm.py
+```
+
+> *(Ensure `pyinstaller` is installed using `pip install pyinstaller`)*
+
+---
+
+## 📦 BUILD INSTALLER (MSI - Optional)
+
+Use the provided `setup.py` to generate a Windows installer:
+
+```bash
+python setup.py bdist_msi
+```
+
+---
+
+## 📄 LICENSE
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute.
+
+---
+
+## 🌟 LIKE THIS PROJECT?
+
+If you found this helpful or educational, please ⭐ star the repository — it motivates further development!
+
+---
+
+## 👤 AUTHOR
+
+**Vinamra Gupta**
+📧 (gvinamra73@gmail.com)
+🔗 (www.linkedin.com/in/vinamra-gupta-0aa4b4375)
+
+```
+
